@@ -17,8 +17,7 @@ window.addEventListener("load", () => {
         pad.addEventListener("click", function() {
             sounds[index].currentTime = 0;  
             sounds[index].play();
-
-            createBubbles(index);
+            createBubble(index);
 
         });
     });
